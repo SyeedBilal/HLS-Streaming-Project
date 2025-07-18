@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config(); // Load environment variables
 
-const dbUrl="mongodb+srv://syeedbilalkirmaney:Programming.in1@mongodbairbnb.wik5q.mongodb.net/VideoTranscoding?retryWrites=true&w=majority&appName=MONGODBAIRBNB'"
+const dbUrl=process.env.MONGO_DB_URI
 
 const connectDB = async () => {
   try {
