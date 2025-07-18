@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up with Google</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts for a modern look -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #4285F4 0%, #34A853 100%);
+      font-family: 'Roboto', sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: #fff;
+      padding: 2.5rem 2rem;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(60,60,60,0.18);
+      text-align: center;
+      max-width: 350px;
+      width: 100%;
+    }
+    .google-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #4285F4;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 0.8rem 1.2rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 1.5rem;
+      text-decoration: none;
+    }
+    .google-btn:hover {
+      background: #357ae8;
+    }
+    .google-icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 0.7rem;
+      background: #fff;
+      border-radius: 50%;
+      padding: 2px;
+    }
+    h2 {
+      margin-bottom: 0.5rem;
+      color: #222;
+      font-weight: 700;
+    }
+    p {
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Sign Up</h2>
+    <p>Join our Video Transcoding Service with your Google account.</p>
+    <a href="/auth/google" class="google-btn">
+      <img class="google-icon" src="https://brandlogo.org/wp-content/uploads/2025/05/Google-G-Icon-2025.png.webp" alt="Google logo">
+      Sign up with Google
+    </a>
+  </div>
+</body>
+</html>
